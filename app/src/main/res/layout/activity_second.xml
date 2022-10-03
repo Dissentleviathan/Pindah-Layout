@@ -7,6 +7,7 @@
     tools:context=".SecondActivity">
 
     <TextView
+        android:id="@+id/tv_selamat_datang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -14,5 +15,17 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_selamat_datang"
+        android:layout_centerHorizontal="true"/>
+
+
 
 </RelativeLayout>

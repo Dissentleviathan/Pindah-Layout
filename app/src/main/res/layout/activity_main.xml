@@ -10,8 +10,18 @@
         android:id="@+id/btn_pindah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pindah"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:text="Next"/>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Lengkap"
+        android:layout_above="@+id/btn_pindah"
+        android:layout_margin="10dp"/>
+
+
 
 
 </RelativeLayout>
