@@ -12,6 +12,7 @@
         android:layout_centerInParent="true"
         android:text="Selamat Datang"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:textAllCaps="true"/>
 
 </RelativeLayout>
